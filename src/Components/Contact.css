@@ -1,0 +1,57 @@
+
+.container-contact {
+    background-color: #FAF9F6;
+    border: #FAF9F6 solid 1px;
+    border-radius: 10%;
+    width: 230px;
+    height: 250px;
+    box-shadow: 5px 5px 10px #C0C0C0;
+
+}
+
+
+.photo-name {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin-top: 28px;
+    margin-left: 40px;
+    margin-right: 10px;
+    color: rgb(64, 61, 61);
+}
+.photo-name h5 {
+    margin-top : 30px ;
+    margin-right : 40px ;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    color: #899499;
+}
+
+.info  {
+    margin-top: 20px;
+    
+
+}
+.tel-mail {
+    margin-top: 15px;
+}
+.tel-mail h6 {
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 800;
+    display: block;
+    margin-top: 15px;
+    color: rgb(64, 61, 61);
+
+}
+.tel-mail span {
+    font-size: medium;
+    font-weight: 500;
+    color: #899499;
+}
+.container {
+    margin-top: 50px;
+}
