@@ -75,7 +75,7 @@ function App() {
 
       <Routes>
       
-        <Route path='/' 
+        <Route path='//TP4_react/' 
         element={allInfo.map((obj,ind)=>{
         return (
           <>
@@ -85,10 +85,10 @@ function App() {
       })}
       />
  
-        <Route path='/add' element={<ContactForm  
+        <Route path='/TP4_react/add' element={<ContactForm  
         modifyName={modifyName} modifyEmail={modifyEmail} modifyPhone={modifyPhone} 
         addToContact={addToContact} nameValue = {name} emailValue = {email}  phoneValue = {tel}/>}/>
-        <Route path='/search' element={
+        <Route path='/TP4_react/search' element={
           searchResults.map((obj,ind) => {
             return (
               <>

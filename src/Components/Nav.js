@@ -10,10 +10,10 @@ export default function Nav(props) {
     <div className="collapse navbar-collapse" id="mynavbar">
       <ul className="navbar-nav me-auto">
         <li className="nav-item">
-          <Link className="nav-link"  to='/'>All contact</Link>
+          <Link className="nav-link"  to='/TP4_react/'>All contact</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to = '/add' >Add contact</Link>
+          <Link className="nav-link" to = '/TP4_react/add' >Add contact</Link>
         </li>
       </ul>
       <form className="d-flex">
@@ -21,7 +21,7 @@ export default function Nav(props) {
         value={props.searchValue}
         onChange={props.modifySearch}/>
         <button onClick={props.filter} className="btn btn-primary text-white" type="button">
-          <Link className='text-white text-decoration-none' to='/search'>Search</Link></button>
+          <Link className='text-white text-decoration-none' to='/TP4_react/search'>Search</Link></button>
       </form>
     </div>
   </div>
